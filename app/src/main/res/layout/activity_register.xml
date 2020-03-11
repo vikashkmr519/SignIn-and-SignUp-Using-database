@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fffacd"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:background="#fffafa"
+        android:id="@+id/etUsername"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME"/>
+    <EditText
+        android:background="#fffafa"
+        android:id="@+id/etPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20sp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"/>
+    <EditText
+        android:background="#fffafa"
+        android:id="@+id/etConfirmPassword"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="CONFIRM PASSWORD"/>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"/>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvAlreadyRegistered"
+            android:textSize="20sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Already Registered ? "  />
+        <TextView
+            android:id="@+id/tvLogin"
+            android:textColor="#6495ed"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" LOGIN" />
+    </LinearLayout>
+
+
+</LinearLayout>
